@@ -661,12 +661,7 @@ header.scrolled .navbar::before {
 .logo img {
     height: 50px;
     width: auto;
-    filter: drop-shadow(0 0 10px rgba(var(--accent-pink-rgb), 0.3));
     transition: filter 0.3s ease;
-}
-
-.logo:hover img {
-    filter: drop-shadow(0 0 20px rgba(var(--accent-pink-rgb), 0.6));
 }
 
 .nav-links {
@@ -3486,7 +3481,7 @@ body:hover .cursor-glow {
 
 .sponsor-slide img:hover {
     transform: scale(1.15);
-    filter: brightness(1.1) contrast(1.2) drop-shadow(0 0 20px rgba(var(--accent-pink-rgb), 0.6));
+    filter: brightness(1.1) contrast(1.2);
     opacity: 1;
 }
 
@@ -4132,7 +4127,6 @@ footer::before {
 .partners-logo {
     width: 350px;
     height: auto;
-    filter: drop-shadow(0 0 20px rgba(var(--accent-pink-rgb), 0.4));
     animation: logoFloat 3s ease-in-out infinite;
     margin-top: -4rem;
 }
